@@ -1,0 +1,19 @@
+:root{
+    --bg-color: #effaff;
+}
+body{
+    margin: 0;
+    overflow: hidden;
+    background-color: var(--bg-color);
+}
+.container{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    
+    svg{
+        display: flex;
+        justify-content: center;
+        scale: .6;
+    }
+}
